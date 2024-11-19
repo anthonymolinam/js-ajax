@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript y AJAX</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>JavaScript</h1>
+      <ol>
+        <li>Detectar si es palíndromo
+          <input type="text" spellcheck="false" class="input-box" id="input-palin" placeholder="Escriba la palabra">
+          <div id="respuesta" class="resultado"></div>
+          <button type="button" id="btn-palin" class="btn">Comprobar</button></li>
+        <li>Número mayor
+          <input type="text" spellcheck="false" id="num1" class="input-box" placeholder="Número 1">
+          <input type="text" spellcheck="false" id="num2" class="input-box" placeholder="Número 2">
+          <div id="mayor" class="resultado"></div>
+          <button type="button" id="btn-2" class="btn">Ejecutar</button></li>
+        </li>
+        <li>Vocales
+          <input type="text" spellcheck="false" id="frase" class="input-box" placeholder="Escribe tu frase">
+          <div id="vocales" class="resultado"></div>
+          <button type="button" id="vocals" class="btn">Verificar</button></li>
+        </li>
+        <li>Número de Vocales
+          <input type="text" spellcheck="false" id="frase2" class="input-box" placeholder="Escribe tu frase">
+          <div id="vocales2" class="resultado"></div>
+          <button type="button" id="vocals2" class="btn">Verificar</button></li>
+        </li>
+      </ol>
+    </div>
+    <div class="box">
+      <h1>AJAX</h1>
+
+          URL
+          <input type="text" spellcheck="false" id="url" class="input-box">
+          <button type="button" id="enviar" class="btn">Mostrar Contenidos</button>
+          <input type="text" spellcheck="false" id="contenidos" class="input-box content" placeholder="Contenidos" disabled>
+          <input type="text" spellcheck="false" id="estados" class="input-box content" placeholder="Estados" disabled>
+          <input type="text" spellcheck="false" id="cabeceras" class="input-box content" placeholder="Cabeceras" disabled>
+          <input type="text" spellcheck="false" id="codigo" class="input-box content" placeholder="Codigos" disabled>
+          <input type="text" spellcheck="false" id="msg" class="input-box content" placeholder="ERRORES" disabled>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
